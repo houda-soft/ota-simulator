@@ -1,6 +1,11 @@
 {
-  "version": "1.0",
-  "file": "firmware.bin",
-  "signature": "firmware.bin.sig",
-  "hash": "56fa657cef4665e6647c7f22d27698b85d23427e0240c4cca3e6133b6195aad5"
+  "version": "1.0.0",
+  "released_at": "2026-04-20T13:20:06.315169+00:00",
+  "firmware_file": "firmware.bin",
+  "signature_file": "firmware.bin.sig",
+  "sha256": "64910ac3c3520f107ec2e85aee71205021aa01b678c7008a6b3b68de87c7973a",
+  "size_bytes": 337,
+  "rollback_counter": 100,
+  "target_model": "RASPI5-SIM",
+  "description": "Simulation OTA v1.0.0"
 }

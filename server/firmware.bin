@@ -1,1 +1,12 @@
-version1 
+#!/bin/bash
+VERSION="1.0.0"
+BUILD_DATE="2026-04-20T13:20:01.390517+00:00"
+echo "Demarrage firmware ECU v$VERSION"
+echo "Build: $BUILD_DATE"
+echo "Init CAN bus... OK"
+echo "Init ADAS module... OK"
+echo "ECU Firmware v$VERSION operationnel"
+while true; do
+    echo "$(date) - ECU v$VERSION en fonctionnement"
+    sleep 10
+done
